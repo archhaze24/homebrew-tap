@@ -5,7 +5,7 @@
 class Korg < Formula
   desc "Kirby's music organizer: covers, synced lyrics, FLAC to Opus, ReplayGain"
   homepage "https://github.com/archhaze24/korg"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   depends_on "opus-tools"
@@ -13,23 +13,23 @@ class Korg < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/archhaze24/korg/releases/download/v0.1.0/korg-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bdf5d144cc173d1224e82622b7448f27f3ed472e07d87e24f1656f633ddf12f2"
+      url "https://github.com/archhaze24/korg/releases/download/v0.2.0/korg-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b0c3ac0e54438c90a6698d10a1ca29ba5d57aa316d1a3a94893879b9c41e841a"
     end
     on_intel do
-      url "https://github.com/archhaze24/korg/releases/download/v0.1.0/korg-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d14f9bbf265224d2bb1d976bb417c4120f8d698a2f45bc91e3b412174e78fe43"
+      url "https://github.com/archhaze24/korg/releases/download/v0.2.0/korg-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c8994639324c02f585572d894e0c75c61d4717c380be417ba3bc69dd45e9eb52"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/archhaze24/korg/releases/download/v0.1.0/korg-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5a6800647b02f6e1d7316911d81a705d6d03d339b822f36ddac6582b6f535c20"
+      url "https://github.com/archhaze24/korg/releases/download/v0.2.0/korg-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "547e1578777d2a24101ebf411ebb6acd655a745b5ca355f617cb44f636791f70"
     end
     on_intel do
-      url "https://github.com/archhaze24/korg/releases/download/v0.1.0/korg-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e44800cb04b36524f9b3ee28a5db20b0345aecd46623c0c1d45839990f490237"
+      url "https://github.com/archhaze24/korg/releases/download/v0.2.0/korg-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c4b824dd0cf42ddfad52ad23b04d3d92745cfd636185d0f47c9e708825f534e5"
     end
   end
 
