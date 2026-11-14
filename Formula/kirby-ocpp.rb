@@ -4,33 +4,34 @@
 class KirbyOcpp < Formula
   desc "OCPP 1.6J charge point emulator (kirby-ocpp) and central system (kirby-csms) for testing"
   homepage "https://github.com/archhaze24/kirby-ocpp"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.5.0/kirby-ocpp-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "74d791d51537b3cd097f04cb360dba9beede22f8656f3ea667f1a80f43772404"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "46d451792866ee03282079b7c58779182d7b2fd6a3c4201cbd230e514bd6286d"
     end
     on_intel do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.5.0/kirby-ocpp-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9f7127d443d41f01ac381d5bbe872a9b89fd3db0005c3b177fe6571fac9965cc"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "70c2ddf6917566336283fa752d141cc109a37cfbb24a88f578dd8cfe3426d692"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.5.0/kirby-ocpp-v0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "61325f5a65fb1a80cceb01acf8febb418b20d0cd7031587a6c8456dcb55f7b80"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "faa88fa8b754ec383be3d95cc3b1ce9d9b3f8c04c52d287aadf9b7d4226de85b"
     end
     on_intel do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.5.0/kirby-ocpp-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b98b38714a2ae2f95efda36ca8d016dc8855a88db1252ab85b8490931650068b"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3ffad97ee036da751994b9af413d6196a30c14b38fa68b33efae2972027d546b"
     end
   end
 
   def install
     bin.install "kirby-ocpp", "kirby-csms"
+    man1.install Dir["man/man1/*.1"]
   end
 
   test do
