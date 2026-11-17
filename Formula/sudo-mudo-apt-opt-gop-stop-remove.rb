@@ -4,28 +4,28 @@
 class SudoMudoAptOptGopStopRemove < Formula
   desc "when you really want to nuke the shit out of some files"
   homepage "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.0/sudo-mudo-apt-opt-gop-stop-remove-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "414a4cc26e091bb0d716faf2f3f9dc740d1a3690c4c75f5954f9f6ddaf775549"
+      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.1/sudo-mudo-apt-opt-gop-stop-remove-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b328e17aa9e2c15d65d4359565fd13bfa94fb9d68061ebd55afa8d125c95b09f"
     end
     on_intel do
-      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.0/sudo-mudo-apt-opt-gop-stop-remove-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e8d9b76f3eb999077e0f07ae52be3bd27729ba8ce5a566fb99b58f1dbd5a18e5"
+      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.1/sudo-mudo-apt-opt-gop-stop-remove-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "d418273bc09f8577df7fa11288129653764e0c89c46504b30c4eea4ccc199d32"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.0/sudo-mudo-apt-opt-gop-stop-remove-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "65bd262ae5c20b92046bac4ee5c0457fc115264fb97d5c35dedd1698dc663875"
+      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.1/sudo-mudo-apt-opt-gop-stop-remove-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e4c62f351eeb6dd1479534baa1bc4369c3058d8a52ea61df3ead273fef868939"
     end
     on_intel do
-      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.0/sudo-mudo-apt-opt-gop-stop-remove-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "602e86b007cd4ddabd7725368b583153ac6c1837553e23fbc33a622cb972e6d7"
+      url "https://github.com/thisislinuxmasterrace/sudo-mudo-apt-opt-gop-stop-remove/releases/download/v0.2.1/sudo-mudo-apt-opt-gop-stop-remove-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ec71431773f42b3b0dfc9f2269e1db8d978904225fa3a14233cdff6f1eebc34c"
     end
   end
 
