@@ -2,30 +2,30 @@
 # Lives in the tap repo archhaze24/homebrew-tap as Formula/kirby-ocpp.rb.
 # Linux uses the static musl builds, so no particular glibc is required.
 class KirbyOcpp < Formula
-  desc "OCPP 1.6J charge point emulator (kirby-ocpp) and central system (kirby-csms) for testing"
+  desc "OCPP 1.6J and 2.0.1 charge point emulator (kirby-ocpp) and central system (kirby-csms) for testing"
   homepage "https://github.com/archhaze24/kirby-ocpp"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "46d451792866ee03282079b7c58779182d7b2fd6a3c4201cbd230e514bd6286d"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.7.0/kirby-ocpp-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f5c11624429107afa163ba942bd074366df5b99908dcd9d395aa41d613f87307"
     end
     on_intel do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "70c2ddf6917566336283fa752d141cc109a37cfbb24a88f578dd8cfe3426d692"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.7.0/kirby-ocpp-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "77150e9a790ecebc9515a33e7d2a20ff32f7887c22672eb5b10bdad9a68e1123"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "faa88fa8b754ec383be3d95cc3b1ce9d9b3f8c04c52d287aadf9b7d4226de85b"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.7.0/kirby-ocpp-v0.7.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6340a91ca7deaa78c2c432e8277cedd4bd0004b081da6bea32ebec7a15cb222c"
     end
     on_intel do
-      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.6.0/kirby-ocpp-v0.6.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3ffad97ee036da751994b9af413d6196a30c14b38fa68b33efae2972027d546b"
+      url "https://github.com/archhaze24/kirby-ocpp/releases/download/v0.7.0/kirby-ocpp-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4eeb10809ee15c1e775960c128d4c66749a1f781922889b82f8c8d0bf7fa833c"
     end
   end
 
